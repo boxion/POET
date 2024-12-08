@@ -2,7 +2,7 @@ from langchain_openai import ChatOpenAI
 import streamlit as st
 
 # API 키 직접 입력
-api_key = 'sk-proj-GJaRpf5fQvPNY8ixzyquT3BlbkFJlpljATz65AFj7jrnoZWF'
+
 
 # ChatOpenAI 초기화 시 API 키와 모델 지정
 chat_model = ChatOpenAI(api_key=api_key, model="gpt-4o")
